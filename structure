@@ -1,0 +1,19 @@
+ops-automation-toolkit/
+├─ README.md
+├─ requirements.txt
+├─ .gitignore
+├─ data/
+│  ├─ sample_daily_ops.xlsx
+│  ├─ devices.csv
+│  └─ assets.csv
+├─ output/
+│  └─ (generated files go here)
+├─ src/
+│  ├─ report_generator.py
+│  ├─ device_monitor.py
+│  ├─ inventory_auditor.py
+│  └─ utils.py
+└─ .github/
+   └─ workflows/
+      ├─ daily-report.yml
+      └─ device-monitor.yml
